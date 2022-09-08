@@ -80,6 +80,7 @@ class ViewController: UIViewController {
         do{
             let url = Bundle.main.url(forResource: "ship", withExtension: "mp3")
             reproductor = try AVAudioPlayer(contentsOf: url!, fileTypeHint: AVFileType.mp3.rawValue)
+            reproductor?.volume = 0.7
             reproductor?.play()
             secuenciaHeader = []
             for i in 1...15{
@@ -98,6 +99,7 @@ class ViewController: UIViewController {
         do{
             let url = Bundle.main.url(forResource: "Outpost", withExtension: "mp3")
             reproductor = try AVAudioPlayer(contentsOf: url!, fileTypeHint: AVFileType.mp3.rawValue)
+            reproductor?.volume = 0.7
             reproductor?.play()
             secuenciaHeader = []
             for i in 1...5{
@@ -116,6 +118,7 @@ class ViewController: UIViewController {
         do{
             let url = Bundle.main.url(forResource: "Station_gun", withExtension: "mp3")
             reproductor = try AVAudioPlayer(contentsOf: url!, fileTypeHint: AVFileType.mp3.rawValue)
+            reproductor?.volume = 0.3
             reproductor?.play()
             secuenciaHeader = []
             for i in 1...7{

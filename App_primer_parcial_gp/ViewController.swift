@@ -19,16 +19,23 @@ class ViewController: UIViewController {
     @IBOutlet weak var imgShip: UIImageView!
     @IBOutlet weak var imgOutpost: UIImageView!
     @IBOutlet weak var imgStation: UIImageView!
-    @IBOutlet weak var imgShipB: UIImageView!
+    @IBOutlet weak var imgHeader: UIImageView!
     
     var secuenciaShip : [UIImage] = []
-    var secuenciaShipB : [UIImage] = []
+    var secuenciaHeader : [UIImage] = []
     var secuenciaOutpost : [UIImage] = []
     var secuenciaStation : [UIImage] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        for i in 1...15{
+            let imagen = UIImage(named: "NaveB\(i)")
+            secuenciaHeader.append(imagen!)
+        }
+        imgHeader.animationImages = secuenciaHeader
+        imgHeader.animationDuration = 1.5
+        imgHeader.startAnimating()
         do {
             try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback, mode: AVAudioSessionModeDefault)
             try AVAudioSession.sharedInstance().setActive(true)
@@ -71,12 +78,17 @@ class ViewController: UIViewController {
     @IBAction func doTapShip(_ sender: Any) {
         lblElementoActivo.text = "Ship"
         do{
-            //let url = Bundle.main.url(forResource: "ship", withExtension: "mp3")
-            let url2 = Bundle.main.url(forResource: "ship_v", withExtension: "mp3")
-            reproductor = try AVAudioPlayer(contentsOf: url2!, fileTypeHint: AVFileType.mp3.rawValue)
+            let url = Bundle.main.url(forResource: "ship", withExtension: "mp3")
+            reproductor = try AVAudioPlayer(contentsOf: url!, fileTypeHint: AVFileType.mp3.rawValue)
             reproductor?.play()
-            //reproductor = try AVAudioPlayer(contentsOf: url!, fileTypeHint: AVFileType.mp3.rawValue)
-            //reproductor?.play()
+            secuenciaHeader = []
+            for i in 1...15{
+                let imagen = UIImage(named: "NaveB\(i)")
+                secuenciaHeader.append(imagen!)
+            }
+            imgHeader.animationImages = secuenciaHeader
+            imgHeader.animationDuration = 1.5
+            imgHeader.startAnimating()
         }catch let error{
             print(error.localizedDescription)
         }
@@ -85,11 +97,16 @@ class ViewController: UIViewController {
         lblElementoActivo.text = "Outpost"
         do{
             let url = Bundle.main.url(forResource: "Outpost", withExtension: "mp3")
-            let url2 = Bundle.main.url(forResource: "outpost_v", withExtension: "mp3")
-            reproductor = try AVAudioPlayer(contentsOf: url2!, fileTypeHint: AVFileType.mp3.rawValue)
-            reproductor?.play()
             reproductor = try AVAudioPlayer(contentsOf: url!, fileTypeHint: AVFileType.mp3.rawValue)
             reproductor?.play()
+            secuenciaHeader = []
+            for i in 1...5{
+                let imagen = UIImage(named: "outpost\(i)")
+                secuenciaHeader.append(imagen!)
+            }
+            imgHeader.animationImages = secuenciaHeader
+            imgHeader.animationDuration = 1.0
+            imgHeader.startAnimating()
         }catch let error{
             print(error.localizedDescription)
         }
@@ -98,12 +115,16 @@ class ViewController: UIViewController {
         lblElementoActivo.text = "Station"
         do{
             let url = Bundle.main.url(forResource: "Station_gun", withExtension: "mp3")
-            let url2 = Bundle.main.url(forResource: "station_v", withExtension: "mp3")
-            reproductor = try AVAudioPlayer(contentsOf: url2!, fileTypeHint: AVFileType.mp3.rawValue)
-            reproductor?.play()
             reproductor = try AVAudioPlayer(contentsOf: url!, fileTypeHint: AVFileType.mp3.rawValue)
             reproductor?.play()
-
+            secuenciaHeader = []
+            for i in 1...7{
+                let imagen = UIImage(named: "Station\(i)")
+                secuenciaHeader.append(imagen!)
+            }
+            imgHeader.animationImages = secuenciaHeader
+            imgHeader.animationDuration = 0.9
+            imgHeader.startAnimating()
         }catch let error{
             print(error.localizedDescription)
         }

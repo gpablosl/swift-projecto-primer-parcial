@@ -247,9 +247,9 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="imgHeader" destination="WW9-Vq-HLI" id="TBw-3A-WMB"/>
                         <outlet property="imgOutpost" destination="0BC-dU-DYr" id="Kua-37-k9P"/>
                         <outlet property="imgShip" destination="xGG-r0-pM7" id="Wxq-rS-CB0"/>
-                        <outlet property="imgShipB" destination="WW9-Vq-HLI" id="che-0r-wH0"/>
                         <outlet property="imgStation" destination="7X8-v8-EDg" id="RO8-Pf-c2f"/>
                         <outlet property="lblElementoActivo" destination="ulN-mi-jpY" id="PSb-EI-lK4"/>
                     </connections>

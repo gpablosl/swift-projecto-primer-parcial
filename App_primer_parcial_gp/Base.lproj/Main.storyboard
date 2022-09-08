@@ -28,13 +28,13 @@
                                 <rect key="frame" x="0.0" y="20" width="414" height="716"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ship" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glY-FB-Hko">
-                                <rect key="frame" x="245.66666666666663" y="369" width="47" height="18"/>
+                                <rect key="frame" x="246" y="369.33333333333331" width="47" height="17.666666666666686"/>
                                 <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Outpost" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1K8-Di-jZJ">
-                                <rect key="frame" x="228.00000000000003" y="505" width="82.333333333333343" height="18"/>
+                                <rect key="frame" x="228.00000000000003" y="505.33333333333331" width="82.333333333333343" height="17.666666666666686"/>
                                 <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -43,34 +43,34 @@
                                 <rect key="frame" x="82.666666666666657" y="313.66666666666669" width="124.66666666666666" height="128.66666666666669"/>
                                 <gestureRecognizers/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="CrR-kQ-f7y" appends="YES" id="koE-vL-U6e"/>
+                                    <outletCollection property="gestureRecognizers" destination="E9P-QZ-G3b" appends="YES" id="Cl8-An-7cJ"/>
                                 </connections>
                             </imageView>
                             <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="outpost1" translatesAutoresizingMaskIntoConstraints="NO" id="0BC-dU-DYr">
                                 <rect key="frame" x="82.666666666666657" y="449.66666666666674" width="124.66666666666666" height="129"/>
                                 <gestureRecognizers/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="wox-wt-6Ri" appends="YES" id="tRC-t7-Mm6"/>
+                                    <outletCollection property="gestureRecognizers" destination="TTo-Oj-kpX" appends="YES" id="YeQ-mA-Om3"/>
                                 </connections>
                             </imageView>
                             <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Station1" translatesAutoresizingMaskIntoConstraints="NO" id="7X8-v8-EDg">
                                 <rect key="frame" x="82.666666666666657" y="585.66666666666663" width="124.66666666666666" height="129"/>
                                 <gestureRecognizers/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="PVb-JN-1mw" appends="YES" id="MDe-7l-Uq1"/>
+                                    <outletCollection property="gestureRecognizers" destination="4c6-3j-Fem" appends="YES" id="JL3-kV-3BW"/>
                                 </connections>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NaveB5" translatesAutoresizingMaskIntoConstraints="NO" id="WW9-Vq-HLI">
                                 <rect key="frame" x="82.666666666666671" y="39.999999999999986" width="248.66666666666663" height="214.66666666666663"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Viewing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ulN-mi-jpY">
-                                <rect key="frame" x="82.666666666666671" y="256.66666666666669" width="248.66666666666663" height="22"/>
+                                <rect key="frame" x="82.666666666666671" y="256.66666666666669" width="248.66666666666663" height="21.333333333333314"/>
                                 <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="24"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Station" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qEQ-io-PJO">
-                                <rect key="frame" x="228.00000000000003" y="641" width="82.333333333333343" height="18"/>
+                                <rect key="frame" x="228.00000000000003" y="641.33333333333337" width="82.333333333333343" height="17.666666666666629"/>
                                 <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -165,23 +165,23 @@
                                 <exclude reference="X5k-W3-TcN"/>
                                 <exclude reference="emv-mt-Pg1"/>
                                 <exclude reference="gn4-0d-6ei"/>
+                                <exclude reference="ZP3-4G-2Io"/>
+                                <exclude reference="bkj-gJ-jVn"/>
+                                <exclude reference="sU3-OQ-Hsm"/>
                                 <exclude reference="6Gc-Cl-f15"/>
                                 <exclude reference="eWP-Xr-up0"/>
                                 <exclude reference="lLQ-qb-LnV"/>
                                 <exclude reference="pxH-Tg-KhC"/>
+                                <exclude reference="Z3O-g2-A4O"/>
+                                <exclude reference="cWX-Ry-5Fd"/>
+                                <exclude reference="hog-lR-LrI"/>
                                 <exclude reference="B3d-zP-PrV"/>
                                 <exclude reference="QgJ-EA-kw7"/>
                                 <exclude reference="zQc-m1-cxp"/>
                                 <exclude reference="zjl-v1-1Tl"/>
-                                <exclude reference="ZP3-4G-2Io"/>
-                                <exclude reference="bkj-gJ-jVn"/>
-                                <exclude reference="sU3-OQ-Hsm"/>
                                 <exclude reference="6CS-yT-Xek"/>
                                 <exclude reference="dVu-ct-YH7"/>
                                 <exclude reference="dve-zL-iC2"/>
-                                <exclude reference="Z3O-g2-A4O"/>
-                                <exclude reference="cWX-Ry-5Fd"/>
-                                <exclude reference="hog-lR-LrI"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
@@ -212,6 +212,11 @@
                                 <include reference="gn4-0d-6ei"/>
                                 <exclude reference="oBt-Wy-cvN"/>
                                 <exclude reference="z7k-TQ-3tn"/>
+                                <exclude reference="UL7-L6-uhp"/>
+                                <include reference="ZP3-4G-2Io"/>
+                                <include reference="bkj-gJ-jVn"/>
+                                <exclude reference="jzn-Xk-8Z4"/>
+                                <include reference="sU3-OQ-Hsm"/>
                                 <include reference="6Gc-Cl-f15"/>
                                 <exclude reference="6oF-SZ-81E"/>
                                 <exclude reference="Is4-HZ-WVP"/>
@@ -220,6 +225,11 @@
                                 <exclude reference="hiV-I4-KMi"/>
                                 <include reference="lLQ-qb-LnV"/>
                                 <include reference="pxH-Tg-KhC"/>
+                                <exclude reference="KPW-cx-IGs"/>
+                                <include reference="Z3O-g2-A4O"/>
+                                <include reference="cWX-Ry-5Fd"/>
+                                <include reference="hog-lR-LrI"/>
+                                <exclude reference="ixE-r2-2Tm"/>
                                 <exclude reference="36c-Jl-dcE"/>
                                 <include reference="B3d-zP-PrV"/>
                                 <include reference="QgJ-EA-kw7"/>
@@ -228,29 +238,38 @@
                                 <exclude reference="zDo-XC-DHf"/>
                                 <include reference="zQc-m1-cxp"/>
                                 <include reference="zjl-v1-1Tl"/>
-                                <exclude reference="UL7-L6-uhp"/>
-                                <include reference="ZP3-4G-2Io"/>
-                                <include reference="bkj-gJ-jVn"/>
-                                <exclude reference="jzn-Xk-8Z4"/>
-                                <include reference="sU3-OQ-Hsm"/>
                                 <include reference="6CS-yT-Xek"/>
                                 <exclude reference="IB7-Ws-jZZ"/>
                                 <exclude reference="Lmf-SN-aL8"/>
                                 <include reference="dVu-ct-YH7"/>
                                 <include reference="dve-zL-iC2"/>
-                                <exclude reference="KPW-cx-IGs"/>
-                                <include reference="Z3O-g2-A4O"/>
-                                <include reference="cWX-Ry-5Fd"/>
-                                <include reference="hog-lR-LrI"/>
-                                <exclude reference="ixE-r2-2Tm"/>
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="imgOutpost" destination="0BC-dU-DYr" id="Kua-37-k9P"/>
+                        <outlet property="imgShip" destination="xGG-r0-pM7" id="Wxq-rS-CB0"/>
+                        <outlet property="imgShipB" destination="WW9-Vq-HLI" id="che-0r-wH0"/>
+                        <outlet property="imgStation" destination="7X8-v8-EDg" id="RO8-Pf-c2f"/>
+                        <outlet property="lblElementoActivo" destination="ulN-mi-jpY" id="PSb-EI-lK4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="CrR-kQ-f7y"/>
-                <tapGestureRecognizer id="wox-wt-6Ri"/>
-                <tapGestureRecognizer id="PVb-JN-1mw"/>
+                <tapGestureRecognizer id="E9P-QZ-G3b" userLabel="Tap Ship">
+                    <connections>
+                        <action selector="doTapShip:" destination="BYZ-38-t0r" id="Zq8-AS-Opg"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="4c6-3j-Fem" userLabel="Tap Station">
+                    <connections>
+                        <action selector="doTapStation:" destination="BYZ-38-t0r" id="kFJ-pG-xPk"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="TTo-Oj-kpX" userLabel="Tap Outpost">
+                    <connections>
+                        <action selector="doTapOutpost:" destination="BYZ-38-t0r" id="zT6-85-gqE"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="114.40000000000001" y="115.27093596059113"/>
         </scene>

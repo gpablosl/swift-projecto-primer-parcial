@@ -29,10 +29,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        for i in 1...15{
-            let imagen = UIImage(named: "NaveB\(i)")
-            secuenciaHeader.append(imagen!)
-        }
+
+        let imagen = UIImage(named: "imgGenerica")
+        secuenciaHeader.append(imagen!)
+        
         imgHeader.animationImages = secuenciaHeader
         imgHeader.animationDuration = 1.5
         imgHeader.startAnimating()
@@ -61,8 +61,8 @@ class ViewController: UIViewController {
         imgOutpost.animationDuration = 1.0
         imgOutpost.startAnimating()
         
-        for i in 1...7{
-            let imagen = UIImage(named: "Station\(i)")
+        for i in 1...5{
+            let imagen = UIImage(named: "Station_simple\(i)")
             secuenciaStation.append(imagen!)
         }
         imgStation.animationImages = secuenciaStation
@@ -80,7 +80,7 @@ class ViewController: UIViewController {
         do{
             let url = Bundle.main.url(forResource: "ship", withExtension: "mp3")
             reproductor = try AVAudioPlayer(contentsOf: url!, fileTypeHint: AVFileType.mp3.rawValue)
-            reproductor?.volume = 0.7
+            reproductor?.volume = 1
             reproductor?.play()
             secuenciaHeader = []
             for i in 1...15{
@@ -99,11 +99,11 @@ class ViewController: UIViewController {
         do{
             let url = Bundle.main.url(forResource: "Outpost", withExtension: "mp3")
             reproductor = try AVAudioPlayer(contentsOf: url!, fileTypeHint: AVFileType.mp3.rawValue)
-            reproductor?.volume = 0.7
+            reproductor?.volume = 1
             reproductor?.play()
             secuenciaHeader = []
-            for i in 1...5{
-                let imagen = UIImage(named: "outpost\(i)")
+            for i in 1...9{
+                let imagen = UIImage(named: "outpostB\(i)")
                 secuenciaHeader.append(imagen!)
             }
             imgHeader.animationImages = secuenciaHeader
@@ -116,9 +116,9 @@ class ViewController: UIViewController {
     @IBAction func doTapStation(_ sender: Any) {
         lblElementoActivo.text = "Station"
         do{
-            let url = Bundle.main.url(forResource: "Station_gun", withExtension: "mp3")
+            let url = Bundle.main.url(forResource: "station", withExtension: "mp3")
             reproductor = try AVAudioPlayer(contentsOf: url!, fileTypeHint: AVFileType.mp3.rawValue)
-            reproductor?.volume = 0.3
+            reproductor?.volume = 1
             reproductor?.play()
             secuenciaHeader = []
             for i in 1...7{

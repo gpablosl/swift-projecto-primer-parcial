@@ -13,13 +13,10 @@
 		3D22B98228C78C850016621D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D22B98128C78C850016621D /* Assets.xcassets */; };
 		3D22B98528C78C850016621D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D22B98328C78C850016621D /* LaunchScreen.storyboard */; };
 		3D2E616028CA392D00A1E6B0 /* VCR_OSD_MONO_1.001.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D2E615F28CA392D00A1E6B0 /* VCR_OSD_MONO_1.001.ttf */; };
-		3D2E616228CA393C00A1E6B0 /* ship.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D2E616128CA393C00A1E6B0 /* ship.mp3 */; };
-		3D2E616428CA3A8400A1E6B0 /* Outpost.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D2E616328CA3A8400A1E6B0 /* Outpost.mp3 */; };
-		3D2E616628CA3A9500A1E6B0 /* Station_gun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D2E616528CA3A9500A1E6B0 /* Station_gun.mp3 */; };
-		3D2E616828CA3B3700A1E6B0 /* station_v.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D2E616728CA3B3700A1E6B0 /* station_v.mp3 */; };
-		3D2E616A28CA3B4100A1E6B0 /* ship_v.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D2E616928CA3B4100A1E6B0 /* ship_v.mp3 */; };
-		3D2E616C28CA3B4A00A1E6B0 /* outpost_v.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D2E616B28CA3B4A00A1E6B0 /* outpost_v.mp3 */; };
 		3D2E616E28CA3B5300A1E6B0 /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D2E616D28CA3B5300A1E6B0 /* song.mp3 */; };
+		3D3A891A28D0C7250058F3C9 /* ship.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D3A891928D0C7250058F3C9 /* ship.mp3 */; };
+		3D3A891C28D0C7450058F3C9 /* Outpost.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D3A891B28D0C7440058F3C9 /* Outpost.mp3 */; };
+		3D3A891E28D0C7680058F3C9 /* station.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D3A891D28D0C7680058F3C9 /* station.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,13 +28,10 @@
 		3D22B98428C78C850016621D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D22B98628C78C850016621D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D2E615F28CA392D00A1E6B0 /* VCR_OSD_MONO_1.001.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = VCR_OSD_MONO_1.001.ttf; path = "../../../../../Volumes/STORE N GO/Proyecto_parcial_web/VCR_OSD_MONO_1.001.ttf"; sourceTree = "<group>"; };
-		3D2E616128CA393C00A1E6B0 /* ship.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ship.mp3; sourceTree = "<group>"; };
-		3D2E616328CA3A8400A1E6B0 /* Outpost.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Outpost.mp3; sourceTree = "<group>"; };
-		3D2E616528CA3A9500A1E6B0 /* Station_gun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Station_gun.mp3; sourceTree = "<group>"; };
-		3D2E616728CA3B3700A1E6B0 /* station_v.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = station_v.mp3; sourceTree = "<group>"; };
-		3D2E616928CA3B4100A1E6B0 /* ship_v.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ship_v.mp3; sourceTree = "<group>"; };
-		3D2E616B28CA3B4A00A1E6B0 /* outpost_v.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = outpost_v.mp3; sourceTree = "<group>"; };
 		3D2E616D28CA3B5300A1E6B0 /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
+		3D3A891928D0C7250058F3C9 /* ship.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ship.mp3; sourceTree = "<group>"; };
+		3D3A891B28D0C7440058F3C9 /* Outpost.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Outpost.mp3; sourceTree = "<group>"; };
+		3D3A891D28D0C7680058F3C9 /* station.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = station.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,14 +64,11 @@
 		3D22B97928C78C800016621D /* App_primer_parcial_gp */ = {
 			isa = PBXGroup;
 			children = (
-				3D2E616728CA3B3700A1E6B0 /* station_v.mp3 */,
-				3D2E616928CA3B4100A1E6B0 /* ship_v.mp3 */,
-				3D2E616528CA3A9500A1E6B0 /* Station_gun.mp3 */,
+				3D3A891928D0C7250058F3C9 /* ship.mp3 */,
+				3D3A891D28D0C7680058F3C9 /* station.mp3 */,
+				3D3A891B28D0C7440058F3C9 /* Outpost.mp3 */,
 				3D2E615F28CA392D00A1E6B0 /* VCR_OSD_MONO_1.001.ttf */,
-				3D2E616B28CA3B4A00A1E6B0 /* outpost_v.mp3 */,
-				3D2E616328CA3A8400A1E6B0 /* Outpost.mp3 */,
 				3D2E616D28CA3B5300A1E6B0 /* song.mp3 */,
-				3D2E616128CA393C00A1E6B0 /* ship.mp3 */,
 				3D22B97A28C78C800016621D /* AppDelegate.swift */,
 				3D22B97C28C78C800016621D /* ViewController.swift */,
 				3D22B97E28C78C800016621D /* Main.storyboard */,
@@ -147,16 +138,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D22B98528C78C850016621D /* LaunchScreen.storyboard in Resources */,
-				3D2E616228CA393C00A1E6B0 /* ship.mp3 in Resources */,
-				3D2E616828CA3B3700A1E6B0 /* station_v.mp3 in Resources */,
-				3D2E616628CA3A9500A1E6B0 /* Station_gun.mp3 in Resources */,
+				3D3A891A28D0C7250058F3C9 /* ship.mp3 in Resources */,
 				3D2E616028CA392D00A1E6B0 /* VCR_OSD_MONO_1.001.ttf in Resources */,
+				3D3A891E28D0C7680058F3C9 /* station.mp3 in Resources */,
 				3D22B98228C78C850016621D /* Assets.xcassets in Resources */,
 				3D2E616E28CA3B5300A1E6B0 /* song.mp3 in Resources */,
 				3D22B98028C78C800016621D /* Main.storyboard in Resources */,
-				3D2E616428CA3A8400A1E6B0 /* Outpost.mp3 in Resources */,
-				3D2E616C28CA3B4A00A1E6B0 /* outpost_v.mp3 in Resources */,
-				3D2E616A28CA3B4100A1E6B0 /* ship_v.mp3 in Resources */,
+				3D3A891C28D0C7450058F3C9 /* Outpost.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D1FBF7128FEEDB700F8E4C2 /* VCR_OSD_MONO_1.001.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D1FBF7028FEEDA500F8E4C2 /* VCR_OSD_MONO_1.001.ttf */; };
 		3D22B97B28C78C800016621D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D22B97A28C78C800016621D /* AppDelegate.swift */; };
 		3D22B97D28C78C800016621D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D22B97C28C78C800016621D /* ViewController.swift */; };
 		3D22B98028C78C800016621D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D22B97E28C78C800016621D /* Main.storyboard */; };
 		3D22B98228C78C850016621D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D22B98128C78C850016621D /* Assets.xcassets */; };
 		3D22B98528C78C850016621D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D22B98328C78C850016621D /* LaunchScreen.storyboard */; };
-		3D2E616028CA392D00A1E6B0 /* VCR_OSD_MONO_1.001.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D2E615F28CA392D00A1E6B0 /* VCR_OSD_MONO_1.001.ttf */; };
 		3D2E616E28CA3B5300A1E6B0 /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D2E616D28CA3B5300A1E6B0 /* song.mp3 */; };
 		3D3A891A28D0C7250058F3C9 /* ship.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D3A891928D0C7250058F3C9 /* ship.mp3 */; };
 		3D3A891C28D0C7450058F3C9 /* Outpost.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D3A891B28D0C7440058F3C9 /* Outpost.mp3 */; };
@@ -20,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D1FBF7028FEEDA500F8E4C2 /* VCR_OSD_MONO_1.001.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = VCR_OSD_MONO_1.001.ttf; path = "../../../../../Volumes/STORE N GO/Moviles/Proyecto_parcial_web_1/VCR_OSD_MONO_1.001.ttf"; sourceTree = "<group>"; };
 		3D22B97728C78C800016621D /* App_primer_parcial_gp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App_primer_parcial_gp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D22B97A28C78C800016621D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D22B97C28C78C800016621D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,7 +28,6 @@
 		3D22B98128C78C850016621D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D22B98428C78C850016621D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D22B98628C78C850016621D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D2E615F28CA392D00A1E6B0 /* VCR_OSD_MONO_1.001.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = VCR_OSD_MONO_1.001.ttf; path = "../../../../../Volumes/STORE N GO/Proyecto_parcial_web/VCR_OSD_MONO_1.001.ttf"; sourceTree = "<group>"; };
 		3D2E616D28CA3B5300A1E6B0 /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
 		3D3A891928D0C7250058F3C9 /* ship.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ship.mp3; sourceTree = "<group>"; };
 		3D3A891B28D0C7440058F3C9 /* Outpost.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Outpost.mp3; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 				3D3A891928D0C7250058F3C9 /* ship.mp3 */,
 				3D3A891D28D0C7680058F3C9 /* station.mp3 */,
 				3D3A891B28D0C7440058F3C9 /* Outpost.mp3 */,
-				3D2E615F28CA392D00A1E6B0 /* VCR_OSD_MONO_1.001.ttf */,
+				3D1FBF7028FEEDA500F8E4C2 /* VCR_OSD_MONO_1.001.ttf */,
 				3D2E616D28CA3B5300A1E6B0 /* song.mp3 */,
 				3D22B97A28C78C800016621D /* AppDelegate.swift */,
 				3D22B97C28C78C800016621D /* ViewController.swift */,
@@ -137,9 +137,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D1FBF7128FEEDB700F8E4C2 /* VCR_OSD_MONO_1.001.ttf in Resources */,
 				3D22B98528C78C850016621D /* LaunchScreen.storyboard in Resources */,
 				3D3A891A28D0C7250058F3C9 /* ship.mp3 in Resources */,
-				3D2E616028CA392D00A1E6B0 /* VCR_OSD_MONO_1.001.ttf in Resources */,
 				3D3A891E28D0C7680058F3C9 /* station.mp3 in Resources */,
 				3D22B98228C78C850016621D /* Assets.xcassets in Resources */,
 				3D2E616E28CA3B5300A1E6B0 /* song.mp3 in Resources */,
